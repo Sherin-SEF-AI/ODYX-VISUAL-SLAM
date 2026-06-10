@@ -1,0 +1,11 @@
+# ODYX camera-IMU extrinsics T_bc (camera pose in the body/IMU frame) + initial
+# time offset td. THIS IS A DEFAULT TEMPLATE — replace with a real Kalibr result.
+# T_bc maps camera coords into body coords:  p_body = R_bc * p_cam + t_bc.
+# The estimator refines td and (optionally) T_bc online — these are just seeds.
+calibrated: false
+# q_bc = [w, x, y, z] quaternion. Identity here = camera axes aligned to body.
+q_bc: [1.0, 0.0, 0.0, 0.0]
+# t_bc = [x, y, z] metres. ~ a few cm offset on a phone.
+t_bc: [0.0, 0.0, 0.0]
+# td (seconds): t_imu_aligned = t_cam + td.
+td: 0.0

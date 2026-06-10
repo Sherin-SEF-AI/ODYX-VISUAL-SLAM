@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!-- Session exports (.zip), trajectories (.tum), maps live under filesDir. -->
+    <files-path name="sessions" path="sessions/" />
+    <files-path name="trajectories" path="trajectories/" />
+    <files-path name="maps" path="maps/" />
+    <files-path name="calib" path="calib/" />
+</paths>

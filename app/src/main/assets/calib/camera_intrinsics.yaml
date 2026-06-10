@@ -1,0 +1,12 @@
+# ODYX camera intrinsics (pinhole + radial-tangential distortion).
+# THIS IS A DEFAULT TEMPLATE — replace with a real per-device calibration
+# (checkerboard / Kalibr / CameraCharacteristics LENS_INTRINSIC_CALIBRATION).
+# While `calibrated: false`, the UI shows the UNCALIBRATED accuracy warning and
+# the camera intrinsics reported by Camera2 (if any) are preferred at runtime.
+calibrated: false
+width: 640
+height: 480
+# K = [fx, fy, cx, cy]  (pixels, at the width/height above)
+K: [480.0, 480.0, 320.0, 240.0]
+# distortion = [k1, k2, p1, p2, k3]
+distortion: [0.0, 0.0, 0.0, 0.0, 0.0]

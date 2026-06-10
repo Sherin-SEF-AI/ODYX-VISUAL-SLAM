@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="odyx_black">#FF0A0A0B</color>
+    <color name="odyx_accent">#FFFF7A1A</color>
+    <color name="odyx_surface">#FF141416</color>
+    <color name="ic_launcher_background">#FF0A0A0B</color>
+</resources>

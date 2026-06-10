@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Activity base theme. Compose drives the real UI; this just provides a
+         dark, no-action-bar window matching the Operational Materialism look. -->
+    <style name="Theme.Odyx" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/odyx_black</item>
+        <item name="android:statusBarColor">@color/odyx_black</item>
+        <item name="android:navigationBarColor">@color/odyx_black</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>

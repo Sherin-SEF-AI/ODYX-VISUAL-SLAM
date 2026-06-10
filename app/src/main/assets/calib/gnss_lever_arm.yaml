@@ -1,0 +1,4 @@
+# ODYX GNSS antenna lever arm: position of the GNSS antenna phase center
+# expressed in the body/IMU frame (metres). On a phone the antenna is within a
+# few cm of the IMU, so a small/zero vector is a reasonable default.
+lever_arm: [0.0, 0.0, 0.0]

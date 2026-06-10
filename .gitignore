@@ -1,0 +1,31 @@
+*.iml
+.gradle/
+/local.properties
+/.idea/
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx/
+app/build/
+
+# Fetched native dependency sources & prebuilt third-party SDKs.
+# These are pulled by scripts/fetch_deps.sh and must NOT be committed
+# (large, and license inventory tracks them by version instead).
+app/src/main/cpp/third_party/eigen/
+app/src/main/cpp/third_party/gtsam/
+app/src/main/cpp/third_party/boost/
+app/src/main/cpp/third_party/DBoW3/
+app/src/main/cpp/third_party/rtklib/
+third_party_download/
+
+# agent / editor / kotlin caches
+.claude/
+.kotlin/
+.idea/
+
+# all fetched/built native dependency trees (keep hand-written stubs at third_party root)
+app/src/main/cpp/third_party/*/
+
+# large fetched ORB vocabulary (populated by scripts/fetch_deps.sh --vocab)
+app/src/main/assets/orbvoc.dbow3

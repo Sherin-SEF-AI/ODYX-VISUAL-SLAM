@@ -1,0 +1,9 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp"
+    android:viewportWidth="108" android:viewportHeight="108">
+    <!-- ODYX glyph: an upward triangle (pose frustum) in the accent color. -->
+    <path android:fillColor="#FFFF7A1A"
+        android:pathData="M54,30L74,72H34L54,30ZM54,42L44,64H64L54,42Z"/>
+    <path android:fillColor="#FFFF7A1A"
+        android:pathData="M54,48m-4,0a4,4 0,1 1,8 0a4,4 0,1 1,-8 0"/>
+</vector>

@@ -1,0 +1,8 @@
+# ODYX IMU noise model (continuous-time, Allan-variance derived).
+# Defaults are typical for a consumer MEMS phone IMU. Generate a per-device
+# file with the in-app Allan-variance logger (Sessions ▸ Allan, 2+ min static).
+accel_noise_density: 8.0e-3   # m/s^2 / sqrt(Hz)
+gyro_noise_density:  1.2e-3   # rad/s  / sqrt(Hz)
+accel_random_walk:   4.0e-4   # m/s^3  / sqrt(Hz)
+gyro_random_walk:    2.0e-5   # rad/s^2 / sqrt(Hz)
+gravity: 9.81
