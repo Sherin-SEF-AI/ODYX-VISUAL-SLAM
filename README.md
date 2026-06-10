@@ -32,6 +32,15 @@ It exposes a clean `PoseProvider` interface, so other apps drop ODYX in **instea
 
 > 🟢 **Built and verified on a real phone.** GTSAM, Boost, OpenCV, DBoW3, and RTKLIB are cross-compiled into a single `libodyx.so`. The capture, time-sync, and front-end pipeline is verified live on a Samsung Galaxy A17 (arm64, Android 13): camera on the REALTIME clock, 200 Hz IMU, raw multi-constellation GNSS, KLT tracking, ORB vocabulary loaded, no crashes.
 
+## 📸 Screenshots
+
+Running live on a Samsung Galaxy A17 (arm64, Android 13).
+
+| 🎯 SLAM front-end | 📊 Live telemetry | 🗺️ 3D map + pose |
+|---|---|---|
+| ![SLAM feature tracking](docs/screenshots/slam.png) | ![Telemetry dashboard](docs/screenshots/telemetry.png) | ![3D map and camera frustum](docs/screenshots/map.png) |
+| KLT feature tracks over the scene | features, rates, biases, calibration | camera frustum + keyframe trajectory |
+
 ## ✨ Highlights
 
 | | Capability | What it means |
